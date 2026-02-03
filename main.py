@@ -6,6 +6,7 @@ app = FastAPI()
 # Endpoint 1: Základní ověření funkčnosti
 @app.get("/")
 def home():
+    print("Endpoint funguje")
     return {"status": "Server běží", "lokace": "Codespaces"}
 
 # Endpoint 2: Maturitní úloha - Faktoriál (Algoritmy)
