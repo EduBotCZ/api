@@ -22,6 +22,8 @@ def vypocet_faktorialu(cislo: int):
 def secti(a: int, b: int):
     return {"vysledek": a + b}
 
+
+
 # Toto umožní spuštění přímo přes Python (volitelné)
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
